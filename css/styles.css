@@ -416,16 +416,20 @@ h2, .countdown {
 }
 
 .seta {
-    width: 50px;  /* Diminuindo a largura */
-    height: 50px; /* Diminuindo a altura */
-    display: inline-block; /* Para garantir que o alinhamento funcione corretamente */
-    text-align: left; 
-    margin-left: 800px; /* Garantindo que não haja margem esquerda */
+    width: 50px;  /* Largura da seta */
+    height: 50px; /* Altura da seta */
+    display: inline-block; /* Mantém o alinhamento */
+    text-align: left;
+    position: fixed; /* Fixa a seta no lado esquerdo */
+    left: 20px; /* Distância da borda esquerda da tela */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
 }
 
 .seta img {
-    width: 100%; /* Fazendo a imagem ocupar toda a área da seta */
-    height: auto; /* Mantendo a proporção da imagem */
+    width: 100%; /* Imagem ocupa toda a área da seta */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 /*responsividade*/
