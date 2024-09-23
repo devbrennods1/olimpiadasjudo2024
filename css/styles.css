@@ -415,6 +415,19 @@ h2, .countdown {
     padding: 0 15px; /* Adiciona um pouco de espaçamento lateral */
 }
 
+.seta {
+    width: 50px;  /* Diminuindo a largura */
+    height: 50px; /* Diminuindo a altura */
+    display: inline-block; /* Para garantir que o alinhamento funcione corretamente */
+    text-align: left; 
+    margin-left: 800px; /* Garantindo que não haja margem esquerda */
+}
+
+.seta img {
+    width: 100%; /* Fazendo a imagem ocupar toda a área da seta */
+    height: auto; /* Mantendo a proporção da imagem */
+}
+
 /*responsividade*/
 
 /* Responsividade */
