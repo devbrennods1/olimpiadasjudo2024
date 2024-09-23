@@ -423,7 +423,7 @@ h2, .countdown {
     position: fixed; /* Fixa a seta no lado esquerdo */
     left: 20px; /* Distância da borda esquerda da tela */
     top: 90%; /* Centraliza verticalmente */
-    transform: translateY(-50%); /* Ajusta a posição vertical */
+    transform: translateY(-90%); /* Ajusta a posição vertical */
     z-index: 1000; /* Garante que fique acima de outros elementos */
 }
 
